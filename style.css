@@ -1,5 +1,4 @@
-
-  body {
+body {
   background-color: teal;
   color: white;
   text-align: center;
@@ -27,3 +26,27 @@ img {
   border-radius: 8px;
    border: 3px solid maroon;
 }
+ul {
+  list-style-type: none;
+  background-color: green;
+  width:100%;
+  left:0;
+  top:0;
+  padding: 10px;
+  opacity: 0.8;
+  margin: 0;
+  font-size:30px;
+}
+a{
+  display: inline;
+  padding: 10px 10px;
+  font-variant: small-caps;
+  color: sky-blue;
+  
+}
+li a: hover{
+  background-color:yellow;
+  opacity: 1;
+  padding: 20px;
+  
+} 
